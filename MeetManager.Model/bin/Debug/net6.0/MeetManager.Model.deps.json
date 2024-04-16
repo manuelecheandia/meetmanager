@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MeetManager.Model/1.0.0": {
+        "dependencies": {
+          "Extensions": "1.0.0",
+          "MeetManager.Types": "1.0.0"
+        },
+        "runtime": {
+          "MeetManager.Model.dll": {}
+        }
+      },
+      "Extensions/1.0.0": {
+        "runtime": {
+          "Extensions.dll": {}
+        }
+      },
+      "MeetManager.Types/1.0.0": {
+        "runtime": {
+          "MeetManager.Types.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MeetManager.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Extensions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeetManager.Types/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

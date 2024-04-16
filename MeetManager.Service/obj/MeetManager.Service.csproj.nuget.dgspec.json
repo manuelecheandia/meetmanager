@@ -1,0 +1,376 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Service\\MeetManager.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Types\\MeetManager.Types.csproj": {
+                "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Types\\MeetManager.Types.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\Extensions\\Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\Extensions\\Extensions.csproj",
+        "projectName": "Extensions",
+        "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\Extensions\\Extensions.csproj",
+        "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Model\\MeetManager.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Model\\MeetManager.Model.csproj",
+        "projectName": "MeetManager.Model",
+        "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Model\\MeetManager.Model.csproj",
+        "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\Extensions\\Extensions.csproj": {
+                "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\Extensions\\Extensions.csproj"
+              },
+              "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Types\\MeetManager.Types.csproj": {
+                "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Types\\MeetManager.Types.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Repo\\MeetManager.Repo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Repo\\MeetManager.Repo.csproj",
+        "projectName": "MeetManager.Repo",
+        "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Repo\\MeetManager.Repo.csproj",
+        "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Repo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\DAL\\DAL.csproj"
+              },
+              "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Model\\MeetManager.Model.csproj": {
+                "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Model\\MeetManager.Model.csproj"
+              },
+              "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Types\\MeetManager.Types.csproj": {
+                "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Types\\MeetManager.Types.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Service\\MeetManager.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Service\\MeetManager.Service.csproj",
+        "projectName": "MeetManager.Service",
+        "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Service\\MeetManager.Service.csproj",
+        "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Model\\MeetManager.Model.csproj": {
+                "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Model\\MeetManager.Model.csproj"
+              },
+              "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Repo\\MeetManager.Repo.csproj": {
+                "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Repo\\MeetManager.Repo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Types\\MeetManager.Types.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Types\\MeetManager.Types.csproj",
+        "projectName": "MeetManager.Types",
+        "projectPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Types\\MeetManager.Types.csproj",
+        "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\N-tier\\assignment-1-meet-manager-manuelecheandia\\MeetManager.Types\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
